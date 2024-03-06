@@ -95,13 +95,62 @@
 
         <Button
 
-            android:id="@+id/button_calculate"
-            android:padding="20dp"
+            android:id="@+id/button_compartilhar1"
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:text="Compartilhar"
 
             />
+
+        <TextView
+            android:id="@+id/textViewTresCoisaMaravilhosas"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Três coisas maravilhosas que aconteceram hoje:"/>
+
+        <EditText
+            android:id="@+id/editText_TresCoisasMaravilhosas"
+            android:padding="16dp"
+            android:hint="Três coisas maravilhosas de hoje:"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/textViewComoTornarMelhor"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Como poderia ter tornado o dia ainda melhor:"/>
+
+        <EditText
+            android:id="@+id/editText_ComoTornarMelhor"
+            android:padding="16dp"
+            android:hint="Como poderia ter tornado o dia ainda melhor:"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+
+            android:id="@+id/button_compartilhar2"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Compartilhar"
+
+            />
+
     </LinearLayout>
 </ScrollView>
