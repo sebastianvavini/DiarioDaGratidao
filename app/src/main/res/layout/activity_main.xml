@@ -24,6 +24,23 @@
 
         >
 
+        <TextView
+            android:id="@+id/textViewDia"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ao iniciar o dia "/>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sou grato por.... "/>
+
         <EditText
             android:id="@+id/editText_Numero1"
             android:padding="16dp"
@@ -34,34 +51,46 @@
             android:layout_height="wrap_content"
             />
 
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_marginTop="10dp"
-            android:textSize="30dp"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sou grato por.... 1"/>
 
 
 
         <TextView
             android:id="@+id/textView2"
             android:layout_marginTop="10dp"
-            android:textSize="30dp"
+            android:textSize="20dp"
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Texto 2"/>
+            android:text="O que tornaria o dia de hoje fantástico?"/>
+
+        <EditText
+            android:id="@+id/editText_Numero2"
+            android:padding="16dp"
+            android:hint="O que tornaria o dia de hoje fantástico?"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
 
         <TextView
             android:id="@+id/textViewResult"
             android:layout_marginTop="10dp"
-            android:textSize="30dp"
+            android:textSize="20dp"
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Texto 3"/>
+            android:text="Afirmações diárias. Eu Sou..."/>
+
+        <EditText
+            android:id="@+id/editText_Numero3"
+            android:padding="16dp"
+            android:hint="Afirmações diárias. Eu Sou..."
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
 
 
         <Button
