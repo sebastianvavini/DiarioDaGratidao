@@ -24,14 +24,7 @@
 
         >
 
-        <TextView
-            android:id="@+id/textViewDia"
-            android:layout_marginTop="10dp"
-            android:textSize="30dp"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ao iniciar o dia "/>
+        
         <TextView
             android:id="@+id/textView1"
             android:layout_marginTop="10dp"
